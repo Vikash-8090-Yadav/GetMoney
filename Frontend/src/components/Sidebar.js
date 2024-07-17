@@ -19,7 +19,7 @@ function Sidebar({children}) {
     return (
         <div className='sidebar'>
            <div className="sidebar__logo flex items-center justify-center py-4">
-        <h2 className="text-xlg font-bold text-white">FarmHUb</h2>
+        <h2 className="text-xlg font-bold text-white">GetMOney</h2>
       </div>
       <div className="sidebar__options">
         <h3 className="text-lg text-white cursor-pointer my-2 hover:text-gray-300" onClick={() => navigate('/')}>Marketplace</h3>

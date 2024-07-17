@@ -196,22 +196,7 @@ alert("Hey doing the txn")
             ))
           }
         </div>
-        <div className='pt-12  '>
-          <div className='Head'>
-            <span className='heading'>NFT TXN</span>
-          </div>
-          <div  className='txn'>
-            TOKEN ID ----- TXN
-          {/* {nftTransactions.map((transaction, index) => (
-          <div key={index}>
-            <p>Token ID: {index}</p>
-            <p>Transaction Hash: {transaction.data.items[0].latest_transaction.tx_hash}</p>
-  
         
-          </div>
-        ))} */}
-          </div>
-        </div>
       </div>
       
     </div>
