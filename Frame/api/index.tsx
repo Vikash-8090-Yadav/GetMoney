@@ -188,7 +188,7 @@ app.frame('/domain', async(c) => {
       </div>
     ),
     intents: [
-      <Button.Link href="https://monetizedo-ar51.vercel.app/">Visit Dapp</Button.Link>,
+      <Button.Link href="https://get-money.vercel.app/">Visit Dapp</Button.Link>,
       status === 'response' && <Button.Reset>Reset</Button.Reset>,
     ],
   });
