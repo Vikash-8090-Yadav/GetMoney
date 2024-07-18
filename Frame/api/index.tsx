@@ -72,7 +72,7 @@ app.frame('/', (c) => {
         >
           {status === 'response'
             ? `Nice choice.${fruit ? ` ${fruit.toUpperCase()}!!` : ''}`
-            : 'Monetizedo, See Content Review!'}
+            : 'GetMoney, See Content Review!'}
         </div>
       </div>
     ),
@@ -91,7 +91,7 @@ app.frame('/', (c) => {
 app.frame('/domain', async(c) => {
   const { buttonValue, inputText, status } = c;
 
-  const QueryURL = "https://api.studio.thegraph.com/query/67475/monetizedo/v0.0.1";
+  const QueryURL = "https://api.studio.thegraph.com/query/67475/getfarm/v0.0.1";
 
   const client = createClient({
     url: QueryURL,
