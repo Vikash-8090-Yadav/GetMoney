@@ -4,11 +4,9 @@
 
 
 
+# Frontend Deploy Link: https://get-money.vercel.app/
 
-
-# Frontend Deploy Link: 
-
-# Frame: 
+# Frame: https://warpcast.com/~/developers/frames?url=https%3A%2F%2F7893-114-31-136-173.ngrok-free.app%2Fapi
 
   
 
