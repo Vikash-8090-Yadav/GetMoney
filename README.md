@@ -74,8 +74,7 @@ I created subgraph for this prroject and query  to make various dashboard like  
 ### Here's the Link of the subgraph-> https://thegraph.com/studio/subgraph/monetizedo/playground
 
 
-![Screenshot from 2024-06-23 05-03-42](https://github.com/Omega12Pirme/Monetizedo/assets/105157723/0fe50676-b85d-4951-b278-9335840d4f47)
-
+![Screenshot from 2024-07-18 19-03-44](https://github.com/user-attachments/assets/88cc342f-0df5-44b2-bea8-e4ce14b1cad3)
 
 # Graph query 
 
