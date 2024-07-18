@@ -203,13 +203,10 @@ const signer = provider.getSigner();
 
     
     await transaction.wait();
-    alert('Successfully created NFT, Now wait for the covalent txn to be added');
-    
-    const client = new CovalentClient("cqt_rQVXFd7kyYchKkkxcTjQPh9jPXBg");
-    const resp = await client.TransactionService.getTransactionSummary("scroll-sepolia-testnet","0x2f9Eb56e3B8E7208d5562feB95d1Bc5EF432F232");
-    const txn = resp.data.items[0].latest_transaction.tx_hash;
+    alert('Successfully created NFT');
+  
 
-    let addData = await contract.updateData("List",txn);
+    let addData = await contract.updateData("List","Hey");
 
     await addData.wait();
 
