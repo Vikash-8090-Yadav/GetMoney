@@ -8,7 +8,7 @@ const Memos = ({ state }) => {
   const [tokens, setTokens] = useState([]);
   const [isLoading, setIsLoading] = useState(true); // Add loading state
 
-  const QueryURL = "https://api.studio.thegraph.com/query/67475/helperfarm/v0.0.1";
+  const QueryURL = "https://api.studio.thegraph.com/query/67475/getfarm/v0.0.1";
 
   const query = `
     {

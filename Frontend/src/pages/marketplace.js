@@ -27,7 +27,7 @@ export default function Home() {
   }, [])
 
 
-  const QueryURL = "https://api.studio.thegraph.com/query/67475/helperfarm/v0.0.1";
+  const QueryURL = "https://api.studio.thegraph.com/query/67475/getfarm/v0.0.1";
 
   let query = `
     {
