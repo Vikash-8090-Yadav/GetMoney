@@ -1,32 +1,31 @@
 
 
-![Screenshot from 2024-06-23 05-01-32](https://github.com/Omega12Pirme/Monetizedo/assets/105157723/abe2d8ab-589f-4d81-be61-173d7512ba92)
+![Screenshot from 2024-07-18 20-24-31](https://github.com/user-attachments/assets/78cdc50b-38e0-4e83-9574-eb7f1069654a)
 
 
 
 
-# Demo Video: https://youtu.be/8c6AN52xaEQ?si=POdsUoxyUylUAPMv
 
-# Frontend Deploy Link: https://monetizedo-ar51.vercel.app/
+# Frontend Deploy Link: 
 
-# Frame: https://warpcast.com/~/developers/frames?url=https%3A%2F%2Fmonetizedo.vercel.app%2Fapi
+# Frame: 
 
   
 
 ## Introduction 
 
-Monetizedo is a revolutionary platform that allows users to monetize their work , resell work, and anyone can share their experiences in a dedicated dashboard. This platform eliminates intermediaries, empowering users to manage their WORK seamlessly.
+GetMOney is a revolutionary platform that allows users to monetize their work , resell work, and anyone can share their experiences in a dedicated dashboard. This platform eliminates intermediaries, empowering users to manage their WORK seamlessly.
 
-## Contract Info ->  The  smart contract  is deployed ons BASE sepolia
-
-
-
-Contract Address: 0x6D89e1be18912D3F212e16A4E40AfaEd4eaF5a08
-
-https://base-sepolia.blockscout.com/address/0x6D89e1be18912D3F212e16A4E40AfaEd4eaF5a08
+## Contract Info ->  The  smart contract  is deployed on scroll sepolia
 
 
-![Screenshot from 2024-06-23 05-18-49](https://github.com/Omega12Pirme/Monetizedo/assets/105157723/af8b506c-7a5b-4bfc-ba9a-6d8338cf107b)
+
+Contract Address: 0x980C3fFb37CD7C92E3CebbE1BB69Bc5E3dCa0419
+
+https://sepolia.scrollscan.com/address/0x980C3fFb37CD7C92E3CebbE1BB69Bc5E3dCa0419
+
+
+![Screenshot from 2024-07-18 20-28-22](https://github.com/user-attachments/assets/991ff272-a3bd-43e7-8a27-343772d96c6b)
 
 
 
@@ -63,7 +62,7 @@ https://base-sepolia.blockscout.com/address/0x6D89e1be18912D3F212e16A4E40AfaEd4e
   `;
 ```
 
-The query code used in the Frame can be found here: https://github.com/Omega12Pirme/Monetizedo/blob/main/Frame/api/index.tsx#L100C1-L110C5
+The query code used in the Frame can be found here: https://github.com/Vikash-8090-Yadav/GetMoney/blob/main/Frame/api/index.tsx#L102
 
 
 ## The Graph Integration in Frontend Dapp
@@ -71,16 +70,17 @@ The query code used in the Frame can be found here: https://github.com/Omega12Pi
 
 I created subgraph for this prroject and query  to make various dashboard like  Marketplace, Dashboard, Experience cebtre
 
-### Here's the Link of the subgraph-> https://thegraph.com/studio/subgraph/monetizedo/playground
+### Here's the Link of the subgraph-> https://thegraph.com/studio/subgraph/getfarm/playground
 
 
-![Screenshot from 2024-07-18 19-03-44](https://github.com/user-attachments/assets/88cc342f-0df5-44b2-bea8-e4ce14b1cad3)
 
 # Graph query 
 
-###  The code for Montezing the content  is in: https://github.com/Omega12Pirme/Monetizedo/blob/main/Frontend/pages/marketplace.js#L35
+###  The code for Montezing the content  is in: https://github.com/Vikash-8090-Yadav/GetMoney/blob/main/Frontend/src/pages/marketplace.js#L33
 
-###  The code for sharing experience can be found here : https://github.com/Omega12Pirme/Monetizedo/blob/main/Frontend/Component/v1.0.0/Review/Memos.jsx#L14
+###  The code for sharing experience can be found here : https://github.com/Vikash-8090-Yadav/GetMoney/blob/main/Frontend/src/components/Memos.jsx#L14
+
+### The code for the History of the txns: https://github.com/Vikash-8090-Yadav/GetMoney/blob/main/Frontend/src/components/AnalysisReposrt.jsx#L14
 
 
 # Working flow 
@@ -89,7 +89,7 @@ I created subgraph for this prroject and query  to make various dashboard like  
 
 - Any user can buy the work  of others in the form  of nft 
 
-![Screenshot from 2024-06-23 05-17-11](https://github.com/Omega12Pirme/Monetizedo/assets/105157723/5c229e7c-9d73-48a3-ae34-1c59a0d7849a)
+![Screenshot from 2024-07-18 20-35-35](https://github.com/user-attachments/assets/d736e74d-f78c-48da-bc9a-682d449d1623)
 
 
 
@@ -97,40 +97,22 @@ I created subgraph for this prroject and query  to make various dashboard like  
 
 - Any  owner can monetize their work in the form of NFT they will get METT tokens as a reward 
 
-![Screenshot from 2024-05-27 10-40-33](https://github.com/Vikash-8090-Yadav/OneTicket/assets/85225156/60be4e17-b976-4652-9089-49666bed0567)
+![Screenshot from 2024-07-18 20-36-45](https://github.com/user-attachments/assets/dbf88db6-0010-414d-9ac5-08a84caa62f2)
 
 
 ## Re sell 
 
 - Any user who buys the work  can re sell it to the one who needs it
 
-![Screenshot from 2024-05-27 10-41-03](https://github.com/Vikash-8090-Yadav/OneTicket/assets/85225156/b815ba4d-353a-42a1-bd9b-f12415c0193b)
 
 
 ## Experience share 
 
 - Any member can share their after event experience
 
-![Screenshot from 2024-05-27 10-41-26](https://github.com/Vikash-8090-Yadav/OneTicket/assets/85225156/1487f135-125b-40a1-b178-d24abd3312ff)
+![Screenshot from 2024-07-18 20-38-18](https://github.com/user-attachments/assets/41c41652-d53a-424e-94c5-6d57a57ff143)
 
 
-
-### How to run farcaster Frame  Locally
-
-`- Clone this repo 
-``` git clone https://github.com/Omega12Pirme/Monetizedo.git ```
-
-- Got to the Frame directory
-
-  ``` cd  Monetizedo/Frane ```
-  
-- start the  project
-  ``` npm run dev ```
-
-- Start the ngrok server
-
-  ``` ngrok http http://localhost:5173 ```
-- Got to dev farcaster and paste the ngrok link with /api append https://warpcast.com/~/developers/frames
 
 
  
